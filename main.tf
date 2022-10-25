@@ -12,12 +12,12 @@ provider "aws" {
 
 variable ami_to_use {
   type = string
-  default = "ami-0648ea225c13e0729"
+  default = "ami-035c5dc086849b5de"
 }
 
 variable keypair_to_use {
   type = string
-  default = "*** PUT SSH PUBLIC KEY HERE ***"
+  default = "*** PUBLIC SSH KEY HERE ***"
 }
 
 resource "aws_vpc" "main" {
